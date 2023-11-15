@@ -1,0 +1,76 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="DuplicatedCode" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <Languages>
+        <language minSize="149" name="Python" />
+      </Languages>
+    </inspection_tool>
+    <inspection_tool class="Eslint" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="PyBroadExceptionInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyInterpreterInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E722" />
+          <option value="E266" />
+          <option value="E501" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N806" />
+          <option value="N802" />
+          <option value="N801" />
+          <option value="N803" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyShadowingBuiltinsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredNames">
+        <list>
+          <option value="sum" />
+          <option value="input" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="float.time" />
+          <option value="main.undetected_chromedriver" />
+          <option value="cv2.VideoCapture" />
+          <option value="cv2.CascadeClassifier" />
+          <option value="cv2.destroyAllWindows" />
+          <option value="cv2.waitKey" />
+          <option value="cv2.cvtColor" />
+          <option value="cv2.COLOR_BGR2GRAY" />
+          <option value="cv2.rectangle" />
+          <option value="cv2.imshow" />
+          <option value="cv2.resize" />
+          <option value="cv2.COLOR_BGR2HSV" />
+          <option value="cv2.RETR_EXTERNAL" />
+          <option value="cv2.*" />
+          <option value="flask.wrappers.Request.post" />
+          <option value="undetected_chromedriver" />
+          <option value="object.__getitem__" />
+          <option value="object.get_temperature" />
+          <option value="object.get_wind_speed" />
+          <option value="object.get_visibility" />
+          <option value="object.get_cloud_cover" />
+          <option value="object.get_precipitation" />
+          <option value="object.workspace" />
+          <option value="object.sensors" />
+          <option value="object.tolist" />
+          <option value="object.list_databases" />
+          <option value="object.list_database_names" />
+          <option value="bytes.hexdigest" />
+          <option value="bytes.format" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="YAMLSchemaValidation" enabled="false" level="WARNING" enabled_by_default="false" />
+  </profile>
+</component>
